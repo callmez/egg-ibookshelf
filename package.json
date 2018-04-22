@@ -1,0 +1,34 @@
+{
+  "name": "egg-ibookshelf",
+  "version": "1.0.0",
+  "description": "bookshelf plugin for egg, base on egg-knex.",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/callmez/egg-ibookshelf.git"
+  },
+  "keywords": [
+    "bookshelf",
+    "knex",
+    "egg",
+    "orm",
+    "mysql"
+  ],
+  "author": "callme-z@qq.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/callmez/egg-ibookshelf/issues"
+  },
+  "homepage": "https://github.com/callmez/egg-ibookshelf#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "egg-knex": "^2.0.10",
+    "bookshelf": "^0.13.3",
+    "bookshelf-modelbase": "^2.10.4",
+    "bookshelf-mask": "^2.0.1",
+    "bookshelf-json-columns": "^2.1.1"
+  },
+  "eggPlugin": {
+    "name": "bookshelf"
+  }
+}
