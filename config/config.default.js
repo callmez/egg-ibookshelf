@@ -18,6 +18,7 @@ module.exports = (app, config) => {
   exports.bookshelf = {
     ...cfg,
     modelDir: 'app/model',
+    modelKey: 'model',
     app: true,
     agent: false,
   };
