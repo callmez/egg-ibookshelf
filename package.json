@@ -1,6 +1,6 @@
 {
   "name": "egg-ibookshelf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "bookshelf plugin for egg, base on egg-knex.",
   "scripts": {},
   "repository": {
